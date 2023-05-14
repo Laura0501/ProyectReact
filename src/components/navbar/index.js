@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import { Outlet, Link } from 'react-router-dom'
-import styles from './styless/styless.css'
+import './styless/styless.css'
 
 
 function NavbarP() {

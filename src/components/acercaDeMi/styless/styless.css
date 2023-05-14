@@ -1,0 +1,28 @@
+
+.SobreMi-main{
+    color: #fff;
+    text-align: center;
+    text-shadow: 3px 3px rgba(50,50,70,0.5);
+    background-color: #ffb6b9b0;
+    height: 100vh; 
+}
+
+.SobreMi-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+.SobreMi-card{
+    width: 80%;
+    margin: auto;
+}
+
+
+.SobreMi-card__text{
+    padding: 2% 2% 2% 2%;
+    color: white;
+    font-size: larger;
+}
+
