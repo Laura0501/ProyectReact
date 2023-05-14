@@ -16,13 +16,13 @@ function SobreMi() {
                 claseCard='SobreMi-card'
                 claseImg='img-fluid rounded-start'
                 imgCard={Foto}
+                claseBodyCard='flex-grow-1 SobreMi-card__body'
                 claseTitle='SobreMi-card__title'
-                titleCard='SOY YO'
+                titleCard=''
                 claseText='SobreMi-card__text'
-                textCard='Apasionada por la tecnologia desde niña. 
-                Me encanta diseñar  y ser parte de proyectos tecnologicos que impacten al 
-                público y dejen huella. Soy muy sociable por lo que disfruto 
-                mucho a la hora de trabajar en equipo.'
+                textCard='Apasionada por la tecnología desde niña. Me encanta realizar y ser parte 
+                de proyectos tecnológicos que impacten al público y dejen huella. Soy muy sociable
+                por lo que disfruto mucho a la hora de trabajar en equipo.'
                 />
             </div> 
         </div>               

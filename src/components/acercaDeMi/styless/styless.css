@@ -1,8 +1,6 @@
-
 .SobreMi-main{
     color: #fff;
     text-align: center;
-    text-shadow: 3px 3px rgba(50,50,70,0.5);
     background-color: #ffb6b9b0;
     height: 100vh; 
 }
@@ -11,18 +9,35 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 4%;
+}
+
+.SobreMi-title{
     padding-top: 2%;
 }
 
+.SobreMi-card__body{
+    text-align: center;
+}
+
 .SobreMi-card{
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 
+.SobreMi-card__body{
+    padding:6% 6% 6% 6%;
+    font-size:x-large;
+    align-items: center;
+    text-align: justify;
+    justify-content:space-around;
+    display: flex
+}
 
 .SobreMi-card__text{
-    padding: 2% 2% 2% 2%;
-    color: white;
+    color: black;
+    font-family: 'Lora', serif;;
+    text-shadow: none;
     font-size: larger;
 }
 

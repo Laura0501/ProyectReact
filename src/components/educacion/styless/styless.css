@@ -1,0 +1,59 @@
+.Educacion-main{
+    color: #fff;
+    text-align: center;
+    background-color: #ffb6b9b0;
+    height: 100vh; 
+}
+
+.Educacion-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4%;
+}
+
+.Educacion-title{
+    padding-top: 2%;
+}
+
+.Educacion-card__body{
+    text-align: center;
+}
+
+.Educacion-card{
+    width: 80%;
+    height: 70vh;
+    margin: auto;
+}
+
+.Educacion-img{
+    height: 69vh;
+    width: 100%;
+}
+
+.Educacion-card__body{
+    padding:6% 6% 6% 6%;
+    font-size:x-large;
+    align-items: center;
+    text-align: justify;
+    justify-content:space-around;
+    display: flex;
+}
+
+.Educacion-card__text{
+    color: black;
+    background-color: #E7BDF9;
+    font-family: 'Lora', serif;;
+    text-shadow: none;
+    font-size: x-large;
+}
+
+
+.Educacion-card__items{
+    border-radius: 3%;
+    border: 1px solid black;
+    flex-grow: 1;
+    justify-content: space-around;
+    background-color: #E7BDF9;
+}
+
