@@ -9,6 +9,7 @@ import Habilidades from './components/habilidades';
 import Contactame from './components/contactame';
 import NavbarP from './components/navbar';
 
+
 function App() {
   return (
     <div className="App">
@@ -27,6 +28,7 @@ function App() {
         </Routes>
       </BrowserRouter>
     </div>
+    
   );
 }
 

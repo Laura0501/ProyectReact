@@ -2,10 +2,67 @@ section {
     text-align: center;
     color: #fff;
     text-shadow: 3px 3px rgba(50,50,70,0.5);
-    background-color: #ffb6b9b0;
     height: 100vh;  
   }
 
 .NavBg {
     background-color: #7952b3;
   }
+
+.Curriculum-main{
+    color: #fff;
+    text-align: center;
+    background-color: #ffb6b9b0;
+    height: 100vh; 
+}
+
+.Curriculum-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4%;
+}
+
+.Curriculum-title{
+    padding-top: 2%;
+}
+
+.Curriculum-card__body{
+    background-color: #E7BDF9;
+    text-align: center;
+}
+
+.Curriculum-card{
+    background-color: #E7BDF9;
+    border-color: bisque;
+    width: 95%;
+    margin:auto;
+}
+
+.Curriculum-card__body{
+    padding:6% 6% 6% 6%;
+    font-size:x-large;
+    align-items: center;
+    text-align: justify;
+    justify-content:space-around;
+    display: flex
+}
+
+.Curriculum-card__text{
+    color: #FF8DAA;
+    text-align:center;
+    text-shadow: #E7BDF9;
+    font-family: 'Mogra', cursive;
+    font-size:400%;
+}
+
+.Curriculum-card__text--1{
+    padding-top: 2%;
+    color: #9E9E9E;
+    text-align: center;
+    text-shadow: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size:100%;
+
+}
+
