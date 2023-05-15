@@ -12,17 +12,17 @@ import NavbarP from './components/navbar';
 
 function App() {
   return (
-    <div className="App">
-      <BrowserRouter>
+    <div className="App">    
+      <BrowserRouter> 
         <Routes>
-          <Route path='/' element={ <NavbarP /> }>
-            <Route path='acercaDeMi' element={ <SobreMi/> }></Route>
+            <Route path='/' element={ <NavbarP /> }>
+            <Route path='/acercaDeMi' element={ <SobreMi/> }></Route>
             <Route path='educacion' element={ <Educacion/> }></Route>
             <Route path='experienciaLaboral' element={ <ExperienciaLaboral/> }></Route>
             <Route path='habilidades' element={ <Habilidades/> }></Route>
             <Route path='contactame' element={ <Contactame/> }></Route>
 
-            <Route path='*' element={ <Navigate replace to='/'/> }> </Route>
+            <Route path='*' element={ '' }> </Route>
 
           </Route>
         </Routes>

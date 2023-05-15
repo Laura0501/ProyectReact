@@ -28,7 +28,7 @@ function ExperienciaLaboral() {
                     item1='AUXILIAR ADMINISTRATIVA '
                     des1='Masora Gestor Catastral (Octubre 2021 A la Fecha)'
                     item2='ASESORA DE VENTAS '
-                    des2='Masora Gestor Catastral (Junio 2021 Septiembre 2021)'
+                    des2='Digitex (Junio 2021 Septiembre 2021)'
                     item3='ADMINISTRADORA-ASESORA COMERCIAL'
                     des3='Nuevos y usados la 19 (Noviembre 2020 Mayo 2021)'
                     item4='ASESORA DE VENTAS'
