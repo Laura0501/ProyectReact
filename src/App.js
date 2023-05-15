@@ -6,6 +6,7 @@ import SobreMi from './components/acercaDeMi';
 import Educacion from './components/educacion';
 import ExperienciaLaboral from './components/experienciaLaboral';
 import Habilidades from './components/habilidades';
+import Contactame from './components/contactame';
 import NavbarP from './components/navbar';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             <Route path='educacion' element={ <Educacion/> }></Route>
             <Route path='experienciaLaboral' element={ <ExperienciaLaboral/> }></Route>
             <Route path='habilidades' element={ <Habilidades/> }></Route>
+            <Route path='contactame' element={ <Contactame/> }></Route>
 
             <Route path='*' element={ <Navigate replace to='/'/> }> </Route>
 

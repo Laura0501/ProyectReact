@@ -9,7 +9,7 @@ function ExperienciaLaboral() {
         <>
         <div class='Experiencia-main'>
             <div class='Experiencia-title'>
-                <h1>FORMACIÓN</h1>
+                <h1>EXPERIENCIA LABORAL</h1>
             </div>
 
             <div class='Experiencia-content'>

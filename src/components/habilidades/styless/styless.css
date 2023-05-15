@@ -1,0 +1,72 @@
+.Habilidades-main{
+    color: #fff;
+    text-align: center;
+    background-color: #ffb6b9b0;
+    height: 100vh; 
+}
+
+.Habilidades-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4%;
+}
+
+.Habilidades-title{
+    padding-top: 2%;
+}
+
+.Habilidades-img{
+    height: 69vh;
+    width: 155%;
+}
+
+.Habilidades-card__body{
+    text-align: center;
+}
+
+.Habilidades-card{
+    width: 80%;
+    height: 70vh;
+    margin: auto;
+}
+
+
+.Habilidades-card__body{
+    padding:6% 6% 6% 6%;
+    font-size:x-large;
+    align-items: center;
+    text-align: justify;
+    justify-content:space-around;
+    display: flex;
+}
+
+.Habilidades-card__text{
+    color: black;
+    background-color: #E7BDF9;
+    font-family: 'Lora', serif;;
+    text-shadow: none;
+    font-size:smaller;
+    height: 100%;
+    width: 100%;
+}
+
+.items-hab{
+    padding: 3% 3% 2% 2%;
+    border-top: 4px black;
+}
+
+.items-hab__des{
+    padding-left: 3%;
+    text-align:justify;
+}
+
+.items-hab__bar{
+    padding-top: 1%;
+    text-align: center;
+}
+
+.container-fluid {
+    height: 100%;
+    width: 100%;
+}

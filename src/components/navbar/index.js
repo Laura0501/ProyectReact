@@ -16,8 +16,9 @@ function NavbarP() {
                     <Nav.Link as={Link} to='/'></Nav.Link>
                     <Nav.Link as={Link} to='/acercaDeMi'>Acerca de mi</Nav.Link>
                     <Nav.Link as={Link} to='/educacion'>Educación</Nav.Link>
-                    <Nav.Link as={Link} to='/habilidades'>Habilidades</Nav.Link>
+                    <Nav.Link as={Link} to='/habilidades'>Habilidades Profesionales</Nav.Link>
                     <Nav.Link as={Link} to='/experienciaLaboral'>Experiencia Laboral</Nav.Link>
+                    <Nav.Link as={Link} to='/contactame'>Contactame</Nav.Link>
                 </Nav>
                 </Navbar.Collapse>
             </Container>
