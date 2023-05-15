@@ -2,18 +2,19 @@ import React from "react";
 import CampoForm from "../campoFormulario";
 import Form from 'react-bootstrap/Form';
 import Boton from "../buttom";
+import './styless/styless.css'
 
 
 function Contactame() {
     return (
         <>
-        <div class='SobreMi-main'>
-            <div class='SobreMi-title'>
-                <h1>CONTACTO</h1>
+        <div class='Contanto-main'>
+            <div class='Contanto-main__title'>
+                <h1>CONTACTAME</h1>
             </div>
 
-            <div>
-                <Form>
+            <div className="Contanto-boxform">
+                <Form className="Contanto-main__form">
                     <CampoForm
                     controlid='formBasicName'
                     nomSection='Nombre'
@@ -33,12 +34,20 @@ function Contactame() {
                     <CampoForm
                     controlid='formBasicContact'
                     nomSection='Contact'
-                    typeSection='number'
+                    typeSection='int'
                     placeholderSection='Enter Contact'
                     textSection=''
                     />
-
                     <Form.Control as="textarea" placeholder="Leave a comment here" />
+
+                    <div className="Contanto-main__botton">
+                        <Boton
+                        variant='btn btn-danger'
+                        type='submit'
+                        nameButtom='Enviar'
+                        />
+                    </div>
+                    
 
                 </Form>
             </div>

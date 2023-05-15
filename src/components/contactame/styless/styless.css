@@ -1,0 +1,38 @@
+.Contanto-main{
+    color: #fff;
+    text-align: center;
+    background-color: #ffb6b9b0;
+    height: 100vh; 
+}
+
+.Contanto-main__title{
+    padding-top: 2%;
+}
+
+.Contanto-boxform{
+    margin-top:3%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Contanto-main__form{
+    padding: 1% 3% 3% 3%;
+    background-color: #E7BDF9;
+    width: 75%;
+    height: 70vh;
+    margin: auto;
+    text-shadow: none;
+    text-align: justify;
+    font-size:large;
+    font-weight: bold;
+}
+
+.Contanto-main__form--botton{
+    padding-bottom: 4%;
+}
+
+.Contanto-main__botton{
+    text-align: center;
+    padding-top: 2%;
+}
