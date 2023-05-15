@@ -1,0 +1,59 @@
+.Experiencia-main{
+    color: #fff;
+    text-align: center;
+    background-color: #ffb6b9b0;
+    height: 100vh; 
+}
+
+.Experiencia-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4%;
+}
+
+.Experiencia-title{
+    padding-top: 2%;
+}
+
+.Experiencia-img{
+    height: 69vh;
+    width: 155%;
+}
+
+.Experiencia-card__body{
+    text-align: center;
+}
+
+.Experiencia-card{
+    width: 80%;
+    height: 70vh;
+    margin: auto;
+}
+
+
+.Experiencia-card__body{
+    padding:6% 6% 6% 6%;
+    font-size:x-large;
+    align-items: center;
+    text-align: justify;
+    justify-content:space-around;
+    display: flex;
+}
+
+.Experiencia-card__text{
+    color: black;
+    background-color: #E7BDF9;
+    font-family: 'Lora', serif;;
+    text-shadow: none;
+    font-size:smaller;
+}
+
+
+.Experiencia-card__items{
+    border-radius: 3%;
+    border: 1px solid black;
+    flex-grow: 1;
+    justify-content: space-around;
+    background-color: #FED3DE;
+}
